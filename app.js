@@ -1,3 +1,4 @@
-const addNums = (numOne, numTwo) => numOne + numTwo;
-
-const sum = addNums(5, 3);
+const addNums = (numOne, numTwo) => {
+  console.log(numOne, numTwo);
+  return numOne + numTwo;
+};
