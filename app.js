@@ -1,11 +1,5 @@
-const animalArray = ['dog', 'cat', 'pig'];
-
-animalArray.push('cow');
-
-const personObj = {
-  name: 'Lernantino',
-  age: 99
+const printProfileData = (profileDataArr) => {
+  console.log(profileDataArr);
 };
 
-personObj.age = 100;
-personObj.occupation = 'Developer';
+printProfileData(profileDataArgs);
