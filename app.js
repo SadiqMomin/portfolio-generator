@@ -1,11 +1,5 @@
-const animalArray = ['dog', 'cat', 'pig'];
+const message = 'Hello Node!';
+message = 'Goodbye Node!';
 
-animalArray.push('cow');
-
-const personObj = {
-  name: 'Lernantino',
-  age: 99
-};
-
-personObj.age = 100;
-personObj.occupation = 'Developer';
+const sum = 5 + 3;
+sum += 1;
