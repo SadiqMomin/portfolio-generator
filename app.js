@@ -1,3 +1,3 @@
-const addNums = (numOne, numTwo) => {
-  return numOne + numTwo;
-};
+const addNums = (numOne, numTwo) => numOne + numTwo;
+
+const sum = addNums(5, 3);
